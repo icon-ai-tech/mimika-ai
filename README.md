@@ -102,20 +102,6 @@ poetry run python -m mimika_ai.core.pipeline \
 
 ---
 
-## 📜 Архитектура
-
-```mermaid
-graph TD
-    A[Mic input / Audio file] --> B[AudioInput]
-    B --> C[VoiceAnalysis]
-    C --> D[LipSync Model (SadTalker)]
-    D --> E[FrameGenerator]
-    E --> F[VirtualCamera / Renderer]
-    F --> G[OBS output → Zoom / Meet / etc.]
-```
-
----
-
 ## 🧪 Тестирование
 
 ```bash
