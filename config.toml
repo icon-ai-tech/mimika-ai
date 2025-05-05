@@ -1,0 +1,11 @@
+[audio]
+input_device = ""
+sample_rate = 16000
+
+[model]
+sadtalker_path = ""
+pretrained_weights = ""
+
+[output]
+virtual_camera_device = ""
+frame_rate = 30
